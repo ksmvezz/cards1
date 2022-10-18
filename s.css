@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(36deg, #e8e8e8, #dfdfdf);
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  transition: border 0.3s;
+}
+.card {
+  width: 30%;
+  margin: 1%;
+  padding: 30px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 2px 5px 0 black;
+  display: inline-block;
+}
+.card-blue-svet {
+  background: rgb(92,175,248);
+  color: white;
+}
+
+.card-yellow {
+  background: rgb(244,181,34);
+  color: white;
+}
+
+.card-blue-dark {
+  background: rgb(30,76,116);
+  color: white;
+}
